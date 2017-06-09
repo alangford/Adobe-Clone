@@ -1,3 +1,4 @@
+<<<<<<< HEAD:adobe/README.md
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -1899,3 +1900,6 @@ This will only work for locales that have been explicitly imported before.
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+=======
+The idea is to create a clone of adobe using react.
+>>>>>>> 13d23aa1674a6674a18f66713717c4ccb442ef2e:public/adobe/README.md
