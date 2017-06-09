@@ -1,0 +1,34 @@
+
+.second-section{
+    background-color: black;
+    color: white;
+    padding: 2vh 0 2vh 5vw;
+}
+.second-links{
+    padding: 0 1vw 0 1vw;
+}
+.second-links:hover{
+    color: #00bcff;
+    cursor: pointer;
+}
+.color-orange{
+    color: #e2bf0b;
+}
+.color-orange:hover{
+    cursor: pointer;
+    color: #c5840a;
+}
+.navLinks{
+    background-color: #2a2929;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px #3b3a3a solid;
+}
+.routerLinks{
+    text-decoration: none;
+    color: grey;
+}
+.routerLinks:active{
+    color: white;
+}

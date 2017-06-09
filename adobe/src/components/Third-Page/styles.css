@@ -1,0 +1,46 @@
+.main-section3{
+    background-image: url("http://wwwimages.adobe.com/content/dam/acom/en/lobby/acrobat/lobby-bg-doccloud._adc-identity-1400x860.jpg");
+    background-size: cover;
+    padding: 20vh 0 25vh 5vw;
+}
+.color-button{
+    color:white;
+    background-color: #00688f;
+    padding: 1vh 1vw;
+    border-radius: 25%;
+    border: solid 1px #00688f;
+}
+.color-button:hover{
+    cursor: pointer;
+    background-color: #004662;
+    border: solid 1px #003f5a;
+}
+.second-section{
+    background-color: black;
+    color: white;
+    padding: 2vh 0 2vh 5vw;
+}
+.second-links{
+    padding: 0 1vw 0 1vw;
+}
+.second-links:hover{
+    color: #00bcff;
+    cursor: pointer;
+}
+.color-white{
+    color: white;
+}
+.color-orange{
+    color: #e2bf0b;
+}
+.color-orange:hover{
+    cursor: pointer;
+    color: #c5840a;
+}
+.color-blue{
+    color: #2c7ec6;
+}
+.color-blue:hover{
+    color: #2d9ce9;
+    cursor: pointer;
+}

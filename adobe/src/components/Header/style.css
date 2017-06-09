@@ -1,0 +1,48 @@
+.nav-bar{
+    background-color: white;
+    border: solid black 1px;
+    padding: 3vh 3vw 3vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*left side*/
+.logo{
+    height: 2vh;
+    padding-right: 1vw;
+    width: auto;
+}
+/*middle*/
+.dropDown{
+    padding: 3vh 1vw 3vh 1vw;
+    color: silver;
+    font-size: 13px;
+}
+.dropDown:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #f3f3f3;
+    border: solid #adadad 1px;
+}
+
+
+
+/*right side*/
+.sign-in{
+    color: silver;
+    padding-left: 1vw;
+    font-size: 13px;
+}
+.sign-in:hover{
+    cursor: pointer;
+    color: #3897f0;
+}
+.search{
+    color: silver;
+}
+.search:hover{
+    cursor: pointer;
+    color: #3897f0;
+}

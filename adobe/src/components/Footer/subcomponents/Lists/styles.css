@@ -1,0 +1,33 @@
+.footerComponent{
+    background-color: black;
+    color: white;
+}
+.lists{
+    list-style: none;
+}
+.listColor{
+    color: grey;
+}
+.listColor:hover{
+    cursor: pointer;
+    color: white;
+}
+.icons{
+    color: grey;
+    padding: 5px;
+}
+.icons:hover{
+    cursor: pointer;
+    color: white;
+}
+.borderLR{
+    border-right: grey solid 1px;
+    border-left: grey solid 1px;
+}
+.twoLists{
+    padding-right: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

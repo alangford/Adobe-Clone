@@ -2,12 +2,8 @@ const express = require(`express`),
     app = express(),
     cors = require(`cors`),
     bodyParser = require(`body-parser`),
-    axios = require(`axios`),
-    massive = require(`massive`),
-    comicCtrl = require(`./comicCtrl`)
     corsOptions = {origin: 'http://localhost:3041'},
     config = require(`./.config.js`),
-    moment = require("moment"),
     crypto = require('crypto'),
     hmac = crypto.createHash('md5').update(config.marvelSecretKey + "f9d98ff9edde5d45419cdb657cae4aba").digest('hex');
 
@@ -18,7 +14,7 @@ const express = require(`express`),
 console.log(hmac)
 app.use(bodyParser.json());
 app.use(cors(corsOptions));
-app.use(express.static(`public/public`));
+app.use(express.static(`build`));
 
 // app.get(`/api/comics`, comicCtrl.getComics);
 
